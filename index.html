@@ -32,7 +32,7 @@
 					correct:isCorrect($parent.$index, $index) }" ng-click="selectAnswer($parent.$index, $index)"
 				ng-repeat="Answer in myQuestions[$index].answers">{{ Answer.text }}</p>
 
-				<div class="feedback"> 
+				<div class="feedback">
 					<p ng-show="myQuestion.correctness === 'correct'">You are <strong>correct</strong>!</p>
 					<p ng-show="myQuestion.correctness === 'incorrect'">Oops, that's incorrect.</p>
 					<p>{{ myQuestion.feedback }}</p>
