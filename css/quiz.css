@@ -20,7 +20,7 @@ body{ background-color: #fff; padding: 20px; }
 
 #myQuiz h2{ font-size: 3em; margin: 0px; font-weight: 100; }
 #myQuiz h3{ font-size: 2.4em; margin: 0px; font-weight: 100; }
-#myQuiz p{ margin: 0px 0px 14px 0px; }
+/*#myQuiz p{ margin: 0px 0px 14px 0px; }*/
 
 #myQuiz .btn{
     display: inline-block; cursor: pointer; background-color: #c04b01;
@@ -88,7 +88,7 @@ body{ background-color: #fff; padding: 20px; }
     min-height: 60px; padding: 0px; background-repeat: no-repeat; background-position: 0px 0px;
 }
 
-/* --- feedback --- */
+/* ---   back --- */
 #myQuiz .feedback{ color: #efbe5e; margin-top: 50px;
     transition: opacity 1.5s, margin-top 1.5s;
     -webkit-transition: opacity 1.5s, margin-top 1.5s;
@@ -122,3 +122,7 @@ body{ background-color: #fff; padding: 20px; }
 }
 #myQuiz .active{ left: 40px; }
 #myQuiz .intro.inactive, #myQuiz .inactive.answered{ left: -1350px; }
+
+/* --- test --- */
+#myQuiz{ height: 1000px; }
+#myQuiz .results{ top: 650px !important; left: 40px !important; }
