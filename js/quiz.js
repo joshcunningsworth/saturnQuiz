@@ -47,6 +47,19 @@
 			return $scope.activeQuestion += 1;
 		};
 
+		$scope.createShareLinks = function(percentage){
+			var url = 'http://saturn-quiz.herokuapp.com';
+
+			var emailLink = '<a class="btn email" href="mailto:?subject=Try to beat my Saturn Quiz score!&amp;body=I scored '+
+			percentage+'% on this quiz about the planet Saturn. try to beat my score at '+url+'">Email a friend</a>';
+			
+			var twitterLink = '<a class="btn twitter" target="_blank" href="https://twitter.com/share?text=I scored '+
+			percentage+'% on this quiz about the planet Saturn. try to beat my score! &amp;hashtags=SaturnQuiz">Tweet your score</a>';
+			var newMarkup = emailLink + twitterLink;
+
+			return $sce.trustAsHtml(newMarkup);
+		};
+
 	}]);
 
 })();

@@ -7,7 +7,8 @@
             { "id" : 2, "text" : "Second" },
             { "id" : 3, "text" : "Eighth" }
         ],
-        "correct"  : 1 
+		"correct"  : 1,
+		"feedback" : "Saturn is the sixth planet from the Sun and the second-largest in the Solar System, after Jupiter."
     },
     
     {
@@ -20,7 +21,17 @@
 		],
 		"correct"  : 3
     },
-    
+	
+	{
+		"question" : "Saturn is made mostly of Hydrogen.",
+		"answers"  : [
+			{"id"  : 0, "text" : "True"},
+			{"id"  : 1, "text" : "False"}
+		],
+		"correct"  : 0,
+		"feedback" : "Saturn is made up of 96% Hydrogen, 3% Helium, and has small traces of many other substances."
+	},
+
 	{
 		"question" : "One year on Saturn is equivalent to how many years on Earth?",
 		"answers"  : [
@@ -29,7 +40,8 @@
 			{"id"  : 2, "text" : "29"},
 			{"id"  : 3, "text" : "2"}
 		],
-		"correct"  : 2
+		"correct"  : 2,
+		"feedback" : "With an average orbital speed of 9.69km/s, it takes Saturn 29.457 Earth years (or 10,759 Earth days) to complete a single revolution around the Sun."
     },
     
 	{
@@ -43,15 +55,26 @@
 			{"id"  : 5, "text" : "Triton"}
 		],
 		"correct"  : 4,
-		"feedback" : "Though the names seem similar, Triton orbits the planet Neptune."
+		"feedback" : "Titan, at 5,151km diameter, is Saturn's largest moon. It's the second largest in our Solar System!"
     },
     
 	{
-		"question" : "Saturn is visible from Earth without a telescope",
+		"question" : "Saturn is visible from Earth without a telescope.",
 		"answers"  : [
 			{"id"  : 0, "text" : "True"},
 			{"id"  : 1, "text" : "False"}
 		],
-		"correct"  : 0
+		"correct"  : 0,
+		"feedback" : "Saturn is visible with the naked eye for most of the year, except for short periods of time when it's too close to the Sun to observe"
+	},
+
+	{
+		"question" : "Only one spacecraft has visited Saturn.",
+		"answers"  : [
+			{"id"  : 0, "text" : "True"},
+			{"id"  : 1, "text" : "False"}
+		],
+		"correct"  : 1,
+		"feedback" : "A total of four spacecrafts have visited Saturn - Pioneer 11, Voyager 1 & 2, and Cassini-Huygens."
 	}
 ]
